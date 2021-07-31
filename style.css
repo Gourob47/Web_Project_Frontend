@@ -1,0 +1,165 @@
+
+.navbar {
+
+  background:whitesmoke;
+}
+  .navbar .nav-link {
+
+    transition: .4s;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+   
+
+ .navbar .nav-link:hover{
+    background: mediumseagreen;
+    font-size: 20px;  
+    transform: scale(1,1); 
+    }
+ 
+    .line{
+      border: .1rem solid mediumseagreen;
+    }
+
+
+.carousel-item {
+  height: 500px; }
+
+
+
+  .carousel-img-1 {
+    background: url("Images/6.jpeg") no-repeat top;
+    background-size: cover;
+    
+  
+  }
+ 
+
+.carousel-img-2 {
+  background: url("Images/7.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("Images/8.jpeg");
+  background-size: cover; }
+
+  .ff{ 
+    color:whitesmoke;
+    opacity: 1;
+    font-size: 2.5rem;
+  }
+
+
+.title{
+  background-color: white;
+  padding: 20px;
+}
+.title1{
+
+margin: 0 auto; 
+padding: 10px;
+height: 50px;
+width: 300px;
+background-color: green;
+  
+}
+
+.title2{
+margin: 0 auto; 
+padding: 10px;
+
+width: fit-content;
+color: cornsilk;
+  background-color:darkgreen;
+}
+
+title2{
+  margin: 0 auto; 
+padding: 10px;
+
+width: fit-content;
+color: cornsilk;
+  background-color:green;
+}
+
+.nav-style{
+  margin: 10px;
+
+  color:white;
+  background-color:seagreen;
+  transition: .4s;
+}
+.nav-style:hover{
+  transform: scale(1.1,1.1);
+  font-size: 1.1rem;
+  background-color: darkgreen;
+  color: azure;
+}
+
+.line1{
+  border: .1rem solid darkolivegreen;
+  
+}
+.line2{
+  border: .1rem solid darkgreen;
+}
+
+#get{
+ background: url('images/train.jpeg');
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ min-height: 300px;
+ position: relative;
+
+}
+.dark-overlay{
+  background: rgb(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#gallery img{
+  min-height: 300px;
+  
+}
+.card img{
+  min-height: 100px;
+}
+.text{
+  text-align: center;
+}
+
+.line3
+{
+  border: .1rem solid green;
+}
+.con a{
+  text-decoration: none;
+  margin: 0 5px;
+}
+.dis{
+  margin: 0 auto;
+}
+
+.show{
+  text-shadow: 2px 2px 5px whitesmoke;
+  
+}
+
+.line4{
+   border: .3rem solid rgb(42, 179, 42);
+}
+  @media screen and (max-width: 992px) {
+    .ff{
+      margin-top: 50px ;
+      font-size: 1.3rem;
+    }
+    
+  }
+
+ 
+
+  
